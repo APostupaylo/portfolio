@@ -1,0 +1,80 @@
+.home {
+    background-color: #FFEFD5;
+    height: 100vh;
+    /*setting the height for the block*/
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 85px;
+    height: 85px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.welcome {
+    margin-top: 100px;
+}
+
+.hello {
+    font-size: 3cm;
+    font-family: Brush Script MT,
+        Brush Script Std,
+        cursive;
+    font-weight: normal;
+}
+
+.I-am {
+    font-size: 2.5cm;
+    font-family: 'Times New Roman', Times, serif;
+    color: #A7613A;
+    font-weight: normal;
+}
+
+.who {
+    font-size: 0.8cm;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hire {
+    /*background:
+        linear-gradient(currentColor 0 0) bottom 0 left 0 /var(--d, 0) 3px no-repeat,
+        linear-gradient(currentColor 0 0) bottom 6px right 0 /var(--d, 0) 3px no-repeat;
+    transition: 0.5s, background-position 0s 0.5s;*/
+    cursor: pointer;
+    color: #A7613A;
+    font-family: Brush Script MT,
+        Brush Script Std,
+        cursive;
+    font-size: 0.8cm;
+    text-decoration: none;
+    margin-top: 250px;
+}
+
+/*
+.hire:hover {
+    --d: 100%;
+    background-position: bottom 0 right 0, bottom 6px left 0;
+}*/
+
+
+
+
+.skills {
+    background-color: #BCA88E;
+    height: 100vh;
+}
