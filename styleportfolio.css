@@ -79,20 +79,22 @@ body {
     height: 100vh;
 }
 /* Make sure that padding behaves as expected */
-* {box-sizing:border-box}
+/* * {box-sizing:border-box}*/
 
 /* Container for skill bars */
 .container {
-    width: 100%; /* Full width */
+    width: 50%;
+        /* Full width */
     background-color: #c2bebe; /* Grey background */
-    border-radius: 5%;
+    border-radius: 30px;
 }
 
 .skills {
-    text-align: right; /* Right-align text */
-    padding-right: 20px; /* Add some right padding */
-    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
-    color: #c2bebe; /* Grey text color */
+    text-align: right;
+        padding-right: 20px;
+        line-height: 40px;
+        color: #868484;
+        /* Grey text color */
 }
 
 .html5 {width: 90%; background-color: #ee9c4f;} 
