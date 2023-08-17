@@ -84,17 +84,34 @@ body {
 /* Container for skill bars */
 .container {
     width: 100%; /* Full width */
-    background-color: #ddd; /* Grey background */
+    background-color: #c2bebe; /* Grey background */
+    border-radius: 5%;
 }
 
 .skills {
     text-align: right; /* Right-align text */
     padding-right: 20px; /* Add some right padding */
     line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
-    color: white; /* White text color */
+    color: #c2bebe; /* Grey text color */
 }
 
-.html {width: 90%; background-color: #4CAF50;} /* Green */
-.css {width: 80%; background-color: #2196F3;} /* Blue */
-.js {width: 65%; background-color: #f44336;} /* Red */
-.php {width: 60%; background-color: #808080;} /* Dark Grey */
+.html5 {width: 90%; background-color: #ee9c4f;} 
+.css {width: 80%; background-color:#ee9c4f;} 
+.js {width: 65%; background-color:#ee9c4f;} 
+.react {width: 60%; background-color:#ee9c4f;} 
+.VS {width: 90%; background-color: #ee9c4f;} 
+.figma {width: 80%; background-color:#ee9c4f;} 
+.git {width: 65%; background-color:#ee9c4f;} 
+.analysis {width: 60%; background-color:#ee9c4f;}
+.jira {width: 90%; background-color: #ee9c4f;} 
+.system {width: 80%; background-color:#ee9c4f;} 
+.type {width: 65%; background-color:#ee9c4f;} 
+.comm {width: 60%; background-color:#ee9c4f;} 
+.flex {width: 90%; background-color: #ee9c4f;} 
+.sr {width: 80%; background-color:#ee9c4f;} 
+.team {width: 65%; background-color:#ee9c4f;} 
+.tm {width: 60%; background-color:#ee9c4f;} 
+.empathy {width: 65%; background-color:#ee9c4f;} 
+.criticism {width: 60%; background-color:#ee9c4f;} 
+    
+    
