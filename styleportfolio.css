@@ -77,43 +77,159 @@ body {
 .Proficiencies {
     background-color: #BCA88E;
     height: 100vh;
+    display: flex;
+    justify-content: space-around;
 }
+
 /* Make sure that padding behaves as expected */
 /* * {box-sizing:border-box}*/
 
 /* Container for skill bars */
 .container {
-    width: 50%;
-        /* Full width */
-    background-color: #c2bebe; /* Grey background */
+    width: 100%;
+    /* Full width */
+    background-color: #c2bebe;
+    /* Grey background */
     border-radius: 30px;
 }
 
 .skills {
     text-align: right;
-        padding-right: 20px;
-        line-height: 40px;
-        color: #868484;
-        /* Grey text color */
+    padding-right: 5px;
+    line-height: 30px;
+    color: #868484;
+    /* Grey text color */
+    background-color: #ee9c4f;
 }
 
-.html5 {width: 90%; background-color: #ee9c4f;} 
-.css {width: 80%; background-color:#ee9c4f;} 
-.js {width: 65%; background-color:#ee9c4f;} 
-.react {width: 60%; background-color:#ee9c4f;} 
-.VS {width: 90%; background-color: #ee9c4f;} 
-.figma {width: 80%; background-color:#ee9c4f;} 
-.git {width: 65%; background-color:#ee9c4f;} 
-.analysis {width: 60%; background-color:#ee9c4f;}
-.jira {width: 90%; background-color: #ee9c4f;} 
-.system {width: 80%; background-color:#ee9c4f;} 
-.type {width: 65%; background-color:#ee9c4f;} 
-.comm {width: 60%; background-color:#ee9c4f;} 
-.flex {width: 90%; background-color: #ee9c4f;} 
-.sr {width: 80%; background-color:#ee9c4f;} 
-.team {width: 65%; background-color:#ee9c4f;} 
-.tm {width: 60%; background-color:#ee9c4f;} 
-.empathy {width: 65%; background-color:#ee9c4f;} 
-.criticism {width: 60%; background-color:#ee9c4f;} 
-    
-    
+.hard_skills {
+    width: 600px;
+    margin: 20px 15px 0 15px;
+}
+
+.hard_skills p {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.soft_skills {
+    width: 600px;
+    margin: 20px 15px 0 15px;
+}
+
+.soft_skills p {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.content {
+    color: white;
+    align-self: center;
+}
+
+.html5 {
+    width: 50%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.css {
+    width: 50%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px
+}
+
+.js {
+    width: 50%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px
+}
+
+.react {
+    width: 50%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px
+}
+
+.VS {
+    width: 50%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px
+}
+
+.figma {
+    width: 75%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px
+}
+
+.git {
+    width: 80%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px
+}
+
+.analysis {
+    width: 90%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px
+}
+
+.jira {
+    width: 90%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px
+}
+
+.system {
+    width: 70%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px
+}
+
+.type {
+    width: 90%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px
+}
+
+.comm {
+    width: 90%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px
+}
+
+.flex {
+    width: 80%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px
+}
+
+.sr {
+    width: 78%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px
+}
+
+.team {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.tm {
+    width: 70%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px
+}
+
+.empathy {
+    width: 100%;
+    border-radius: 30px;
+
+}
+
+.criticism {
+    width: 80%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px
+}
